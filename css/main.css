@@ -1,0 +1,318 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Biryani', sans-serif;
+  font-size: 100%;
+  background-color: #013243;
+  width: 100%;
+  min-height: 100vh;
+  max-width: 1024px;
+}
+
+main {
+  margin: 0 auto;
+}
+
+#logo {
+  width: 90px;
+  margin-left: 9.765625%;
+  margin-top: 30px;
+}
+
+#avatar-3 {
+  position: absolute;
+  top: 95px;
+  left: 10px;
+  max-width: 115px;
+  z-index: -1;
+}
+
+#avatar-5 {
+  position: absolute;
+  top: 65px;
+  left: 645px;
+  max-width: 124px;
+  z-index: -2;
+}
+#avatar-2 {
+  position: absolute;
+  top: 30px;
+  left: 790px;
+  max-width: 173px;
+}
+
+#avatar-1 {
+  position: absolute;
+  top: 300px;
+  left: 840px;
+  max-width: 119px;
+  z-index: -3;
+}
+
+#avatar-4 {
+  position: absolute;
+  top: 460px;
+  left: 700px;
+  max-width: 240px;
+}
+
+h1 {
+  font-size: 700%;
+  color: #32F5C8;
+  margin-left: 9.765625%;
+  margin-top: 60px;
+}
+
+#description {
+  font-size: 115%;
+  width: 400px;
+  padding: 5px;
+  color: #A9BDC6;
+  margin-top: 10px;
+  margin-left: 9.765625%;
+
+}
+
+#btn {
+  margin-top: 15px;
+  margin-left: 9.765625%;
+  height: 60px;
+  width: 220px;
+  border-radius: 5px;
+  border-color: #32F5C8;
+  background-color: #32F5C8;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+#social {
+  margin-top: 60px;
+  margin-left: 7.765625%;
+}
+
+#logo-2 {
+  vertical-align: middle;
+  margin-right: 10px;
+  padding: 0 5px;
+}
+
+#social > span {
+  font-size: 120%;
+  color: #A9BDC6;
+}
+
+
+/** Tablet portrait view **/
+@media (max-width: 959px) {
+  .avatar {
+    display: none;
+  }
+
+  #avatar-3 {
+    display: block;
+    position: absolute;
+    top: 5em;
+    left: 45px;
+    max-width: 110px;
+  }
+
+  #avatar-5 {
+    display: block;
+    position: absolute;
+    top: 145px;
+    left: 430px;
+  }
+
+  #avatar-2 {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 545px;
+  }
+
+  #avatar-1 {
+    display: block;
+    position: absolute;
+    top: 235px;
+    left: 603px;
+  }
+
+  #avatar-4 {
+    display: block;
+    position: absolute;
+    top: 600px;
+    left: 480px;
+  }
+
+  body {
+    font-size: 100%;
+  }
+
+h1 > span {
+    display: none;
+  }
+
+  #logo {
+    width: 114px;
+    margin-left: 3.765625%;
+  }
+
+  h1 {
+    font-size: 635%;
+    width: 700px;
+    margin: 150px 3.765625% 0 3.765625%;
+  }
+
+  #description {
+    font-size: 160%;
+    margin-left: 3.765625%;
+    margin-top: 20px;
+    width: 500px;
+  }
+
+  #btn {
+    font-size: 155%;
+    margin-top: 20px;
+    margin-left: 3.765625%;
+    height: 80px;
+    width: 300px;
+    border-color: #32F5C8;
+  }
+
+  #social {
+    font-size: 130%;
+    margin-top: 230px;
+    margin-left: 3.765625%;
+  }
+  
+}
+
+/** Mobile Phone Portrait **/
+@media (max-width: 414px) {
+  #avatar-1,
+  #avatar-5 {
+    display: none;
+  }
+
+  #avatar-3 {
+    top: 115px;
+    left: 36px;
+  }
+
+  #avatar-2 {
+    top: 80px;
+    left: 215px;
+    z-index: -1;
+  }
+
+  #avatar-4 {
+    top: 520px;
+    left: 200px;
+    max-width: 200px;
+    z-index: -2;
+  }
+
+  #logo {
+    margin-left: 3.765625%;
+  }
+
+  h1 {
+    font-size: 335%;
+    width: 365px;
+    margin: 150px 3.765625% 0 3.765625%;
+  }
+
+  #description {
+    font-size: 152%;
+    width: 320px;
+  }
+
+  #btn {
+    font-size: 130%;
+    height: 65px;
+    width: 280px;
+  }
+
+  #social {
+    font-size: 100%;
+    margin-top: 250px;
+  }
+}
+
+/** Landscape for certain phones **/
+@media (min-width: 667px) and (max-width: 734px) {
+  h1 {
+    font-size: 550%;
+    width: 600px;
+  }
+
+  #avatar-3 {
+    display: block;
+    position: absolute;
+    top: 5em;
+    left: 45px;
+    max-width: 110px;
+  }
+
+  #avatar-5 {
+    display: block;
+    position: absolute;
+    top: 140px;
+    left: 360px;
+  }
+
+  #avatar-2 {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 470px;
+  }
+
+  #avatar-1 {
+    display: block;
+    position: absolute;
+    top: 235px;
+    left: 500px;
+    max-width: 100px;
+  }
+
+  #avatar-4 {
+    display: block;
+    position: absolute;
+    top: 600px;
+    left: 380px;
+  }
+
+  #social {
+    margin-top: 180px;
+  }
+}
+
+
+/** 375px Phones **/
+@media (max-width: 375px) {
+  h1 {
+    font-size: 320%
+  }
+
+#avatar-2 {
+    top: 85px;
+    left: 199px;
+    z-index: -1;
+  }
+
+  #avatar-4 {
+    top: 515px;
+    left: 170px;
+    max-width: 200px;
+    z-index: -2;
+  }
+}
